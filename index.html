@@ -4,6 +4,37 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <script type="text/javascript" src="./js/script.js"></script>
   </head>
-  <body></body>
+  <body>
+    <div>
+      <h2 class="h2">
+        Welcome to the Interactive ABCs of CSS Technology learning Website
+      </h2>
+      <h3 class="h3">
+        Click on the buttons below to reveal and learn the CSS technology
+        features of the corresponding letters
+      </h3>
+    </div>
+    <div class="abc">
+      <button onclick="toggleImage('a')">A</button>
+      <button onclick="hideImage('a')">Hide result</button>
+      <div id="a" class="image-container">
+        <img src="./img/css-letter-a.png" alt="Image 1" />
+      </div>
+
+      <button onclick="toggleImage('b')">B</button>
+      <button onclick="hideImage('b')">Hide Result</button>
+      <div id="b" class="image-container">
+        <img src="./img/css-letter-b.png" alt="Image 2" />
+      </div>
+
+      <button onclick="toggleImage('c')">C</button>
+      <button onclick="hideImage('c')">Hide Result</button>
+      <div id="c" class="image-container">
+        <img src="./img/css-letter-c.png" alt="Image 3" />
+      </div>
+    </div>
+  </body>
 </html>

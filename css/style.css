@@ -1,0 +1,33 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.h2,
+.h3 {
+  text-align: center;
+}
+
+.abc {
+  display: flex;
+  justify-content: space-around;
+}
+.image-container {
+  position: relative;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.buttons {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.toggle-button,
+.hide-button {
+  margin-top: 10px;
+}
